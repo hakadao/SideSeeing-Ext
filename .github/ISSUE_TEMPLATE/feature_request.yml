@@ -1,0 +1,37 @@
+name: ✨ Feature request
+description: Suggest an idea for SideSeeing
+title: "[Feature]: "
+labels: ["feature request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for sharing an idea! Before submitting, please check the existing [issues](https://github.com/hakadao/SideSeeing-Ext/issues) to avoid duplicates.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Describe the situation or limitation you're running into. Focus on the problem, not the solution.
+      placeholder: |
+        Example: I often compare two pages side by side, but SideSeeing only shows one page at a time.
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: Describe the feature or behavior you'd like to see and how it should work.
+      placeholder: |
+        Example: Add a split-view mode that lets a tab display two pages side by side.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you've considered
+      description: Any workarounds or alternative approaches you've tried.
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Mockups, screenshots, or links that help illustrate the idea.

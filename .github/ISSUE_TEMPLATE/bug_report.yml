@@ -1,0 +1,80 @@
+name: 🐛 Bug report
+description: Report a problem with SideSeeing
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! Please fill in as much detail as you can — it helps us reproduce and fix the issue faster.
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: What happened, and what did you expect to happen instead?
+      placeholder: |
+        Example: Dragging a link into the side panel opens it in the main tab instead of a new SideSeeing tab.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Step-by-step instructions to trigger the issue.
+      placeholder: |
+        1. Open SideSeeing from the toolbar icon.
+        2. Drag a link from a page into the side panel.
+        3. ...
+    validations:
+      required: true
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser
+      description: Which browser are you using?
+      multiple: false
+      options:
+        - Google Chrome
+        - Microsoft Edge
+        - Other Chromium-based browser (e.g. Brave, Opera, Vivaldi)
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      description: e.g. macOS 15, Windows 11, Linux (Ubuntu 24.04)
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: SideSeeing version
+      description: Find it on the extension details page (chrome://extensions → SideSeeing → Details) or in the Chrome Web Store listing.
+    validations:
+      required: true
+  - type: dropdown
+    id: theme
+    attributes:
+      label: Theme
+      description: Which theme were you using when the bug occurred?
+      options:
+        - Light
+        - Dark
+        - Both / not theme-related
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or screen recording
+      description: If applicable, attach screenshots or a short recording to help explain the problem.
+  - type: textarea
+    id: logs
+    attributes:
+      label: Console errors
+      description: If you opened the side panel's developer tools (right-click inside SideSeeing → Inspect), paste any relevant console errors here.
+      render: shell
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Anything else that might be relevant — e.g. how SideSeeing was installed (Chrome Web Store or unpacked), extensions that might interfere, etc.
