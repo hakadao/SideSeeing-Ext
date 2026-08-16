@@ -15,10 +15,10 @@
 
 ## Preview
 
-Watch SideSeeing in action. The preview follows your GitHub theme — light mode shows the daytime build, dark mode the nighttime one.
+Watch SideSeeing in action.
 
-<a href="assets/videos/preview.mp4#gh-light-mode-only"><video controls src="assets/videos/preview.mp4"></video></a>
-<a href="assets/videos/preview_dark.mp4#gh-dark-mode-only"><video controls src="assets/videos/preview_dark.mp4"></video></a>
+<video controls src="assets/videos/preview.mp4"></video>
+<video controls src="assets/videos/preview_dark.mp4"></video>
 
 ## About SideSeeing
 
