@@ -1,8 +1,13 @@
 # SideSeeing
 
-<div align="center">
+<div>
   <p><strong>Go SideSeeing with your side panel browser.</strong></p>
   <p>A beautiful browser inside your browser's side panel.</p>
+  <p>
+    <a href="https://chromewebstore.google.com/detail/sideseeing/cgfpanaponhenddgnffcoohecbaoajhe?hl=en">
+      <img src="https://img.shields.io/badge/Chrome%20Web%20Store-Available-4285F4?logo=googlechrome&logoColor=white" alt="Available on the Chrome Web Store">
+    </a>
+  </p>
 </div>
 
 ![SideSeeing light mode new tab page](assets/screenshots/new-tab.png#gh-light-mode-only)
@@ -28,7 +33,9 @@ The interface combines macOS-inspired translucent surfaces, soft depth, and roun
 
 ## Installation
 
-SideSeeing is currently installed manually as an unpacked extension. A Chromium-based browser with side-panel extension support is required; Google Chrome and Microsoft Edge are recommended.
+SideSeeing is available on the [Chrome Web Store](https://chromewebstore.google.com/detail/sideseeing/cgfpanaponhenddgnffcoohecbaoajhe?hl=en). A Chromium-based browser with side-panel extension support is required; Google Chrome and Microsoft Edge are recommended.
+
+Alternatively, you can install it manually as an unpacked extension:
 
 1. Download the newest SideSeeing `.zip` package from [GitHub Releases](https://github.com/hakadao/SideSeeing-Ext/releases).
 2. Extract the downloaded archive to a permanent folder. Do not delete this folder after installation.
