@@ -13,6 +13,13 @@
 ![SideSeeing light mode new tab page](assets/screenshots/new-tab.png#gh-light-mode-only)
 ![SideSeeing dark mode new tab page](assets/screenshots/dark-new-tab.png#gh-dark-mode-only)
 
+## Preview
+
+Watch SideSeeing in action. The preview follows your GitHub theme — light mode shows the daytime build, dark mode the nighttime one.
+
+<a href="assets/videos/preview.mp4#gh-light-mode-only"><video controls src="assets/videos/preview.mp4"></video></a>
+<a href="assets/videos/preview_dark.mp4#gh-dark-mode-only"><video controls src="assets/videos/preview_dark.mp4"></video></a>
+
 ## About SideSeeing
 
 SideSeeing turns the right side of your browser into a focused, self-contained browsing space. Its name combines <strong>side browsing</strong> with <strong>sightseeing</strong>: the utility of a compact browser, paired with a calm and scenic experience.
