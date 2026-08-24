@@ -17,8 +17,7 @@
 
 Watch SideSeeing in action.
 
-[![Watch the video](https://raw.githubusercontent.com/hakadao/SideSeeing-Ext/main/assets/videos/preview.jpg)](https://raw.githubusercontent.com/hakadao/SideSeeing-Ext/main/assets/videos/preview.mp4)
-[![Watch the video](https://raw.githubusercontent.com/hakadao/SideSeeing-Ext/main/assets/videos/preview_dark.jpg)](https://raw.githubusercontent.com/hakadao/SideSeeing-Ext/main/assets/videos/preview_dark.mp4)
+https://github.com/user-attachments/assets/2fca75c9-d088-47d3-b5bf-830fd30b25f3
 
 ## About SideSeeing
 
